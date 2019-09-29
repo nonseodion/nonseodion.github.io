@@ -1,0 +1,275 @@
+	<!DOCTYPE html>
+	<html lang="zxx" class="no-js">
+	<head>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="img/fav.png">
+		<!-- Author Meta -->
+		<meta name="author" content="colorlib">
+		<!-- Meta Description -->
+		<meta name="description" content="">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>NonseOdion's Portfolio</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+			<!--
+			CSS
+			============================================= -->
+			<link rel="stylesheet" href="css/linearicons.css">
+			<link rel="stylesheet" href="css/font-awesome.min.css">
+			<link rel="stylesheet" href="css/bootstrap.css">
+			<link rel="stylesheet" href="css/jquery-ui.css">				
+			<link rel="stylesheet" href="css/nice-select.css">							
+			<link rel="stylesheet" href="css/animate.min.css">			
+			<link rel="stylesheet" href="css/main.css">
+		</head>
+		<body id="main">
+			<div class="container-fluid" id="hider" onclick="closeNav()"></div>
+		  <header id="header">
+		    <div class="container main-menu">
+		    	<div class="row align-items-center justify-content-between d-flex">
+					<nav id="nav-menu-container">
+						<ul class="nav-menu">
+						  <li><a href="index.html">Home</a></li>
+						  <li><a href="#about" >About</a></li>
+						  <li><a href="#services" onclick="closeNav()">Services</a></li>
+						  <li><a href="#portfolio" onclick="closeNav()">Portfolio</a></li>
+						  <li><a href="#contact" onclick="closeNav()">Contact</a></li>
+						</ul>
+						
+
+					  </nav><!-- #nav-menu-container -->		    		
+
+					</div>
+				</div>
+				
+
+				<button type="button" id="mobile-nav-toggle" onclick="openNav()" >
+					<i class="lnr lnr-menu"></i>
+				</button>
+				
+		  </header>
+		  <!-- #header -->
+		  <!--nav menu for smaller screens-->
+				
+		  <div id="mySidenav" class="sidenav">
+				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+				<a href="index.html">Home</a>
+				<a href="#about" >About</a>
+				<a href="#services" onclick="closeNav()">Services</a>
+				<a href="#portfolio" onclick="closeNav()">Portfolio</a>
+				<a href="#contact" onclick="closeNav()">Contact</a>
+		</div>
+
+			<!-- start banner Area -->
+			<section class="banner-area" id="about">
+				<div class="container">
+					<div class="row fullscreen align-items-center justify-content-between">
+						<div class="col-lg-6 col-md-6 banner-left">
+							<h6>I am</h6>
+							<h1>Ifebhor Nonse Odion</h1>
+							<p>
+								I write blockchain and crytocurrency articles and build websites for fun.
+							</p>
+							
+						</div>
+						
+					</div>
+				</div>					
+			</section>
+			<!-- End banner Area -->
+
+			<!-- Start services Area -->
+			<section class="services-area section-gap" id="services">
+				<div class="container">
+		            <div class="row d-flex justify-content-center">
+		                <div class="menu-content  col-lg-7">
+		                    <div class="title text-center">
+		                        <h1 class="mb-10">My Offered Services</h1>
+		                    </div>
+		                </div>
+		            </div>						
+					<div class="row">
+						<div class="col-lg-4 col-md-6">
+							<div class="single-services">
+								<span class="lnr lnr-pie-chart"></span>
+								<a href="#"><h4>Web Design</h4></a>
+								<p>
+									Let me turn that brainchild or business of yours into a website.
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-6">
+							<div class="single-services">
+								<span class="lnr lnr-laptop-phone"></span>
+								<a href="#"><h4>Web Development</h4></a>
+								<p>
+									I can turn your preffered design into a functional website.
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-4 col-md-12 text-center">
+							<div class="single-services">
+								<span class="lnr lnr-file-empty"></span>
+								<a href="#"><h4>Writing</h4></a>
+								<p>
+									Let's put that your blockchain or cryptocurrency idea in writing. Blockchain, cryptocurrency or web articles make a pick.
+								</p>
+							</div>	
+						</div>									
+					</div>
+				</div>	
+			</section>
+			<!-- End services Area -->	
+
+			
+			
+			<!-- Start recent-blog Area -->
+			<section class="recent-blog-area section-gap" id="portfolio">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-md-8 pb-30 header-text">
+							<h1>Latest posts from my medium page</h1>	
+						</div>
+					</div>
+					<div class="row">	
+						<div class="single-recent-blog col-lg-4 col-md-4">
+							<div class="thumb">
+								<img class="f-img img-fluid mx-auto" src="img/b1.jpeg" alt="">	
+							</div>
+							<div class="bottom d-flex justify-content-between align-items-center flex-wrap">
+								<div>
+									<img class="img-fluid" id="user" src="img/user.jpeg" alt="">
+									<a href="https://medium.com/@nonseodion"><span>Nonse Odion</span></a>
+								</div>
+								<div class="meta">
+									9th Jun
+									<span class="lnr lnr-heart"></span> 243
+									<span class="lnr lnr-bubble"></span> 1
+								</div>
+							</div>							
+							<a href="https://medium.com/@nonseodion/how-bitcoin-mining-works-559369f03305">
+								<h4>How Bitcoin Mining works.</h4>
+							</a>
+							<p>
+								Bitcoin is decentralized meaning there's no central Authority like the Federal Reserve or Central Bank that controls its issuance and stability...
+							</p>
+						</div>
+						<div class="single-recent-blog col-lg-4 col-md-4">
+							<div class="thumb">
+								<img class="f-img img-fluid mx-auto" src="img/b2.jpeg" alt="">	
+							</div>
+							<div class="bottom d-flex justify-content-between align-items-center flex-wrap">
+								<div>
+									<img class="img-fluid" id="user" src="img/user.jpeg" alt="">
+									<a href="https://medium.com/@nonseodion"><span>Nonse Odion</span></a>
+								</div>
+								<div class="meta">
+									23rd Mar
+									<span class="lnr lnr-heart"></span> 48
+									<span class="lnr lnr-bubble"></span> 0
+								</div>
+							</div>							
+							<a href="https://medium.com/@nonseodion/how-to-accept-cryptocurrency-in-your-business-b04911467de9">
+								<h4>Keeping Your Digital Assets Secure</h4>
+							</a>
+							<p>
+								The blockchain has eliminated the middleman and has aided cryptocurrencies to eliminate banks which has transferred power to…
+							</p>
+						</div>
+						<div class="single-recent-blog col-lg-4 col-md-4">
+							<div class="thumb">
+								<img class="f-img img-fluid mx-auto" src="img/b3.png" alt="">	
+							</div>
+							<div class="bottom d-flex justify-content-between align-items-center flex-wrap">
+								<div>
+									<img class="img-fluid" id="user" src="img/user.jpeg" alt="">
+									<a href="https://medium.com/@nonseodion"><span>Nonse Odion</span></a>
+								</div>
+								<div class="meta">
+									8th Mar
+									<span class="lnr lnr-heart"></span> 56
+									<span class="lnr lnr-bubble"></span> 0
+								</div>
+							</div>							
+							<a href="https://medium.com/@nonseodion/how-to-accept-cryptocurrency-in-your-business-b04911467de9">
+								<h4>How to Accept Cryptocurrency in your Business</h4>
+							</a>
+							<p>
+								If you are a business owner, you might have come across a customer who asked“do you accept cryptocurrency” and he might have been…
+							</p>
+						</div>												
+											
+												
+					</div>
+				</div>	
+			</section>
+			<!-- end recent-blog Area -->
+
+            <!-- start footer Area -->
+            <footer class="footer-area section-gap" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="single-footer-widget">
+                                <h4>Let's Talk</h4>
+								<p>Send me a message</p>
+								<i class="fa fa-phone"></i>+2348150466681
+								<div class="footer-message d-flex align-items-center">
+								<a href="mailto:nonseodion@gmail.com"><i class="fa fa-envelope"></i></a>
+								<a href="https://wa.me/2348150466681"><i class="fa fa-whatsapp"></i></a><br>
+								
+							</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 social-widget">
+                            <div class="single-footer-widget">
+                                <h4>Follow Me</h4>
+                                <p>Let us be social</p>
+                                <div class="footer-social d-flex align-items-center">
+                                    <a href="https://m.facebook.com/nonse.ifebhor"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://twitter.com/NonseOdion?s=09"><i class="fa fa-twitter"></i></a>
+									<a href="https://linkedin.com/in/nonse-odion-29115a135"><i class="fa fa-linkedin"></i></a>
+                                </div>
+                            </div>
+						</div>
+						<div class="col-lg-4 col-md-6 col-sm-6 social-widget">
+                            <div class="single-footer-widget">
+                                <h4>Projects</h4>
+                                <p>Feast your eyes on my current and past projects</p>
+                                <div class="footer-social d-flex align-items-center">
+									<a href="https://github.com/GREYBAT"><i class="fa fa-github"></i></a>									
+									<a href="https://medium.com/@nonseodion"><i class="fa fa-medium"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- End footer Area -->		
+
+			<script src="js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="js/popper.min.js"></script>
+			<script src="js/vendor/bootstrap.min.js"></script>			
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>			
+  			<script src="js/easing.min.js"></script>			
+			<script src="js/hoverIntent.js"></script>
+			<script src="js/superfish.min.js"></script>	
+			<script src="js/jquery.ajaxchimp.min.js"></script>
+			<script src="js/jquery.magnific-popup.min.js"></script>	
+    		<script src="js/jquery.tabs.min.js"></script>						
+			<script src="js/jquery.nice-select.min.js"></script>	
+            <script src="js/isotope.pkgd.min.js"></script>			
+			<script src="js/waypoints.min.js"></script>
+			<script src="js/jquery.counterup.min.js"></script>
+			<script src="js/simple-skillbar.js"></script>							
+			<script src="js/owl.carousel.min.js"></script>							
+			<script src="js/mail-script.js"></script>	
+			<script src="jS/main.js"></script>	
+		</body>
+	</html>
